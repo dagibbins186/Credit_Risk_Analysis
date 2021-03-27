@@ -21,7 +21,6 @@ Precision: 100%
 Recall: 57%
 \
 \
-\
 **2. Oversampling: SMOTE**
 \
 Confusion Matrix:
@@ -37,7 +36,6 @@ Balanced Accuracy Score: 52%
 Precision: 100%
 \
 Recall: 52%
-\
 \
 \
 **3. Undersampling: ClusterCentroids**
@@ -57,7 +55,6 @@ Precision: 99%
 Recall: 29%
 \
 \
-\
 **4. Combination (Over & Under) Sampling: SMOTEENN**
 \
 Confusion Matrix:
@@ -73,7 +70,6 @@ Balanced Accuracy Score: 54%
 Precision: 100%
 \
 Recall: 76%
-\
 \
 \
 **5. Balanced Random Forest Classifier**
@@ -93,7 +89,6 @@ Precision: 4%
 Recall: 64%
 \
 \
-\
 **6. Easy Ensemble Classifier**
 \
 Confusion Matrix:
@@ -109,8 +104,6 @@ Balanced Accuracy Score: 1%
 Precision: 1%
 \
 Recall: 100%
-\
-\
 
 # Summary
 There are situations in which high recall, also known as sensitivity, is more important than precision. With credit-card risk screening, for example, a high sensitivity is more important than high precision. High sensitivity means that among people who actually have credit-card risk, most of them will be predicted correctly. High precision, on the other hand, means that if the test comes back positive, there's a high likelihood that the person has credit-card risk. It's better to detect everyone who might have credit card risk, even if it means a certain number of false positives, than to miss people who do have credit card risk. After all, those with a positive result for credit card can undergo further testing to confirm or rule out credit card risk. The false positives in a highly sensitive test are accepted as a cost of doing business. 
