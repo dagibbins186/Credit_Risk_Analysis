@@ -111,8 +111,9 @@ Precision: 1%
 Recall: 100%
 \
 \
-\
-# Summary
 
-There is a summary of the results 
-There is a recommendation on which model to use, or there is no recommendation with a justification 
+# Summary
+There are situations in which high recall, also known as sensitivity, is more important than precision. With credit-card risk screening, for example, a high sensitivity is more important than high precision. High sensitivity means that among people who actually have credit-card risk, most of them will be predicted correctly. High precision, on the other hand, means that if the test comes back positive, there's a high likelihood that the person has credit-card risk. It's better to detect everyone who might have credit card risk, even if it means a certain number of false positives, than to miss people who do have credit card risk. After all, those with a positive result for credit card can undergo further testing to confirm or rule out credit card risk. The false positives in a highly sensitive test are accepted as a cost of doing business. 
+\
+\
+Models 1 through 4 have high precision. On the other hand, Models 5 and 6 have high sensitivity. Therefore, models 5 and 6 are the best to use in this scenario. Models 5 and 6 show highly sensitive tests and an aggressive algorthm. They do a good job of detecting the intended targets. Unfortunately, there is also risk of false positives. Conversely, Models 1 through 4 demonstrate a conservative process. The predicted positives are likely true positives. The flip side is that a number of other true positives may not be predicted. If we are choosing models from the perspective of the lender, then Models 5 and 6 are the best bets.
