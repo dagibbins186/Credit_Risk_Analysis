@@ -29,6 +29,7 @@ Confusion Matrix:
 |--------------|----------------|-----------------|
 |Actually True | 8824           | 8294            |
 |Actually False| 42             | 45              |
+
 \
 \
 Balanced Accuracy Score: 52%
@@ -46,6 +47,7 @@ Confusion Matrix:
 |--------------|----------------|-----------------|
 |Actually True | 4933           | 12185           |
 |Actually False| 25             | 62              |
+
 \
 \
 Balanced Accuracy Score: 50%
@@ -63,6 +65,7 @@ Confusion Matrix:
 |--------------|----------------|-----------------|
 |Actually True | 13068          | 4050            |
 |Actually False| 60             | 27              |
+
 \
 \
 Balanced Accuracy Score: 54%
@@ -80,6 +83,7 @@ Confusion Matrix:
 |--------------|----------------|-----------------|
 |Actually True | 65             | 36              |
 |Actually False| 1692           | 15412           |
+
 \
 \
 Balanced Accuracy Score: 90%
@@ -97,6 +101,7 @@ Confusion Matrix:
 |--------------|----------------|-----------------|
 |Actually True | 65             | 36              |
 |Actually False| 1692           | 15412           |
+
 \
 \
 Balanced Accuracy Score: 1%
