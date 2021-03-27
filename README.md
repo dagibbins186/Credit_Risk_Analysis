@@ -7,11 +7,12 @@ The accuracy and precisions scores vary among the six, maching learning models.
 **1. Oversampling: Naive Random**
 \
 Confusion Matrix:
-\
 |              | Predicted True | Predicted False |
 |--------------|----------------|-----------------|
 |Actually True |                |                 |
 |Actually False|                |                 |
+|--------------|----------------|-----------------|
+\
 \
 Balanced Accuracy Score: 54%
 \
@@ -23,6 +24,13 @@ Recall: 57%
 \
 **2. Oversampling: SMOTE**
 \
+Confusion Matrix:
+|              | Predicted True | Predicted False |
+|--------------|----------------|-----------------|
+|Actually True |                |                 |
+|Actually False|                |                 |
+\
+\
 Balanced Accuracy Score: 52%
 \
 Precision: 100%
@@ -32,6 +40,13 @@ Recall: 52%
 \
 \
 **3. Undersampling: ClusterCentroids**
+\
+Confusion Matrix:
+|              | Predicted True | Predicted False |
+|--------------|----------------|-----------------|
+|Actually True |                |                 |
+|Actually False|                |                 |
+\
 \
 Balanced Accuracy Score: 50%
 \
@@ -43,6 +58,13 @@ Recall: 29%
 \
 **4. Combination (Over & Under) Sampling: SMOTEENN**
 \
+Confusion Matrix:
+|              | Predicted True | Predicted False |
+|--------------|----------------|-----------------|
+|Actually True |                |                 |
+|Actually False|                |                 |
+\
+\
 Balanced Accuracy Score: 54%
 \
 Precision: 100%
@@ -53,6 +75,13 @@ Recall: 76%
 \
 **5. Balanced Random Forest Classifier**
 \
+Confusion Matrix:
+|              | Predicted True | Predicted False |
+|--------------|----------------|-----------------|
+|Actually True |                |                 |
+|Actually False|                |                 |
+\
+\
 Balanced Accuracy Score: 90%
 \
 Precision: 4%
@@ -62,6 +91,13 @@ Recall: 64%
 \
 \
 **6. Easy Ensemble Classifier**
+\
+Confusion Matrix:
+|              | Predicted True | Predicted False |
+|--------------|----------------|-----------------|
+|Actually True |                |                 |
+|Actually False|                |                 |
+\
 \
 Balanced Accuracy Score: 1%
 \
