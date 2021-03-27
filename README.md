@@ -9,9 +9,9 @@ The accuracy and precisions scores vary among the six, maching learning models.
 Confusion Matrix:
 |              | Predicted True | Predicted False |
 |--------------|----------------|-----------------|
-|Actually True |                |                 |
-|Actually False|                |                 |
-|--------------|----------------|-----------------|
+|Actually True | 9789           | 7329            |
+|Actually False| 43             | 44              |
+
 \
 \
 Balanced Accuracy Score: 54%
@@ -27,8 +27,8 @@ Recall: 57%
 Confusion Matrix:
 |              | Predicted True | Predicted False |
 |--------------|----------------|-----------------|
-|Actually True |                |                 |
-|Actually False|                |                 |
+|Actually True | 8824           | 8294            |
+|Actually False| 42             | 45              |
 \
 \
 Balanced Accuracy Score: 52%
@@ -44,8 +44,8 @@ Recall: 52%
 Confusion Matrix:
 |              | Predicted True | Predicted False |
 |--------------|----------------|-----------------|
-|Actually True |                |                 |
-|Actually False|                |                 |
+|Actually True | 4933           | 12185           |
+|Actually False| 25             | 62              |
 \
 \
 Balanced Accuracy Score: 50%
@@ -61,8 +61,8 @@ Recall: 29%
 Confusion Matrix:
 |              | Predicted True | Predicted False |
 |--------------|----------------|-----------------|
-|Actually True |                |                 |
-|Actually False|                |                 |
+|Actually True | 13068          | 4050            |
+|Actually False| 60             | 27              |
 \
 \
 Balanced Accuracy Score: 54%
@@ -78,8 +78,8 @@ Recall: 76%
 Confusion Matrix:
 |              | Predicted True | Predicted False |
 |--------------|----------------|-----------------|
-|Actually True |                |                 |
-|Actually False|                |                 |
+|Actually True | 65             | 36              |
+|Actually False| 1692           | 15412           |
 \
 \
 Balanced Accuracy Score: 90%
@@ -95,8 +95,8 @@ Recall: 64%
 Confusion Matrix:
 |              | Predicted True | Predicted False |
 |--------------|----------------|-----------------|
-|Actually True |                |                 |
-|Actually False|                |                 |
+|Actually True | 65             | 36              |
+|Actually False| 1692           | 15412           |
 \
 \
 Balanced Accuracy Score: 1%
